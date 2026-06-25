@@ -50,7 +50,7 @@ export default function Hero({ onScrollTo }) {
           >
             Angelo De Asis
             <br />
-            <span style={{ color: "#2563eb" }}>aspiring</span>
+            <span style={{ color: "#2563eb" }}>Full-stack</span>
             <br />
             web developer.
           </h1>
@@ -66,8 +66,7 @@ export default function Hero({ onScrollTo }) {
               marginBottom: 40,
             }}
           >
-            "CS graduate building full-stack apps and AI-powered tools. Focused on backend systems, ML applications, and React development. Currently open to new opportunities.
-            
+            "CS graduate building full-stack apps and AI-powered tools. Focused on backend systems, ML applications, and React development. Currently open to new opportunities."
           </p>
         </FadeIn>
 
@@ -76,9 +75,20 @@ export default function Hero({ onScrollTo }) {
             <button className="btn-primary" onClick={() => onScrollTo("Projects")}>
               View my work →
             </button>
+
             <button className="btn-outline" onClick={() => onScrollTo("Contact")}>
               Get in touch
             </button>
+
+            <a
+              href="https://www.linkedin.com/in/angelo-de-asis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-outline">
+                LinkedIn
+              </button>
+            </a>
           </div>
         </FadeIn>
 

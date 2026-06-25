@@ -14,7 +14,6 @@ export const PROJECTS = [
       "Machine Learning",
     ],
     github: "#",
-    live: "#",
   },
   {
     title: "AI PDF-to-Flashcard Generator",
@@ -30,8 +29,7 @@ export const PROJECTS = [
       "OpenAI API",
       "MongoDB",
     ],
-    github: "#",
-    live: "#",
+    github: "https://github.com/angelodeasis/EnhanceNoteProject",
   },
   {
     title: "Drone Collision Simulation System",
@@ -46,7 +44,6 @@ export const PROJECTS = [
       "Data Analysis",
       "Simulation Modeling",
     ],
-    github: "#",
-    live: "#",
+    github: "https://github.com/angelodeasis/dronecollisionsimulation",
   },
 ];

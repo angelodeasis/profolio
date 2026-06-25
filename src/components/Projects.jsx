@@ -31,14 +31,6 @@ function ProjectCard({ project }) {
           >
             GitHub ↗
           </a>
-          <a
-            href={project.live}
-            style={{ color: "#2a4a70", fontSize: 13, transition: "color 0.2s" }}
-            onMouseEnter={(e) => (e.target.style.color = "#7fb3e8")}
-            onMouseLeave={(e) => (e.target.style.color = "#2a4a70")}
-          >
-            Live ↗
-          </a>
         </div>
       </div>
 
