@@ -66,8 +66,8 @@ export default function Hero({ onScrollTo }) {
               marginBottom: 40,
             }}
           >
-            I'm a new-grad software engineer who loves solving hard problems and shipping
-            products people actually use. Currently open to new opportunities.
+            "CS graduate building full-stack apps and AI-powered tools. Focused on backend systems, ML applications, and React development. Currently open to new opportunities.
+            
           </p>
         </FadeIn>
 
