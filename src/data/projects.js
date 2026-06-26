@@ -13,7 +13,7 @@ export const PROJECTS = [
       "Computer Vision",
       "Machine Learning",
     ],
-    github: "#",
+    github: "https://github.com/angelodeasis/setscv",
   },
   {
     title: "AI PDF-to-Flashcard Generator",
