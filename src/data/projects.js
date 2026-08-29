@@ -16,6 +16,26 @@ export const PROJECTS = [
     github: "https://github.com/angelodeasis/setscv",
   },
   {
+  title: "Game of the Aeons: War of the Trailblazers",
+
+  description:
+    "Designed and developed a browser-based strategic auction game inspired by Honkai: Star Rail. Built a custom game engine with React and JavaScript featuring character auctions, resource management, random events, team building, and multi-stage Memory of Chaos progression.",
+
+  proof:
+    "A fully playable web application with a custom state-driven game engine, auction system, event system, and automated game-flow resolution.",
+
+  stack: [
+    "JavaScript",
+    "React",
+    "Vite",
+    "Game Engine",
+    "State Management",
+    "Vercel",
+  ],
+
+  live: "https://auction-hsr-game.vercel.app/",
+ },
+  {
     title: "AI PDF-to-Flashcard Generator",
     description:
       "Built a full-stack web application that extracts content from uploaded PDF study materials and generates AI-assisted flashcards. Led a team to design the React frontend, integrated OpenAI-powered card generation, and implemented MongoDB storage for user-created study sets.",

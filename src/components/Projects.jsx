@@ -22,15 +22,41 @@ function ProjectCard({ project }) {
         >
           {project.title}
         </h3>
+
         <div style={{ display: "flex", gap: 12 }}>
-          <a
-            href={project.github}
-            style={{ color: "#2a4a70", fontSize: 13, transition: "color 0.2s" }}
-            onMouseEnter={(e) => (e.target.style.color = "#7fb3e8")}
-            onMouseLeave={(e) => (e.target.style.color = "#2a4a70")}
-          >
-            GitHub ↗
-          </a>
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#2a4a70",
+                fontSize: 13,
+                transition: "color 0.2s",
+              }}
+              onMouseEnter={(e) => (e.target.style.color = "#7fb3e8")}
+              onMouseLeave={(e) => (e.target.style.color = "#2a4a70")}
+            >
+              GitHub ↗
+            </a>
+          )}
+
+          {project.live && (
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#2a4a70",
+                fontSize: 13,
+                transition: "color 0.2s",
+              }}
+              onMouseEnter={(e) => (e.target.style.color = "#7fb3e8")}
+              onMouseLeave={(e) => (e.target.style.color = "#2a4a70")}
+            >
+              Live Demo ↗
+            </a>
+          )}
         </div>
       </div>
 
@@ -58,10 +84,17 @@ function ProjectCard({ project }) {
 
 export default function Projects() {
   return (
-    <section id="Projects" style={{ padding: "100px 24px", borderTop: "1px solid #0e1e33" }}>
+    <section
+      id="Projects"
+      style={{
+        padding: "100px 24px",
+        borderTop: "1px solid #0e1e33",
+      }}
+    >
       <div style={{ maxWidth: 1100, margin: "0 auto" }}>
         <FadeIn>
           <p className="section-label">What I've built</p>
+
           <h2
             style={{
               fontFamily: "'Space Grotesk', sans-serif",
@@ -93,3 +126,4 @@ export default function Projects() {
     </section>
   );
 }
+
