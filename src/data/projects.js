@@ -16,6 +16,23 @@ export const PROJECTS = [
     github: "https://github.com/angelodeasis/setscv",
   },
   {
+    title: "SoftView: Local Sensory Media Analysis ",
+    description:
+     "Developed a privacy-focused browser application that analyzes audio and video locally to identify potentially intense sensory events, including sudden volume increases and rapid visual changes. Implemented audio signal analysis, video frame sampling, heuristic event detection, and real-time mitigation during playback.",
+    proof:
+      "Identifies and timestamps potential audio and visual sensory events, then applies gradual audio reduction and visual dimming during Assisted Viewing.",
+    stack: [
+"JavaScript",
+"React",
+"Web Audio API",
+"HTML5 Media",
+"Signal Processing",
+"Computer Vision",
+"Accessibility",
+],
+    live: "https://soft-view-seven.vercel.app/",
+  },
+  {
   title: "Game of the Aeons: War of the Trailblazers",
 
   description:
