@@ -66,7 +66,7 @@ export const PROJECTS = [
       "OpenAI API",
       "MongoDB",
     ],
-    github: "https://github.com/angelodeasis/EnhanceNoteProject",
+    live: "https://enhance-note-project-4pby5re68-angelodeasis-projects.vercel.app/",
   },
   {
     title: "Drone Collision Simulation System",
