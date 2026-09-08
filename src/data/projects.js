@@ -1,20 +1,27 @@
 export const PROJECTS = [
   {
-    title: "Set Card Recognition with CNN (VGG6)",
-    description:
-      "Developed and trained a VGG6-based computer vision model capable of identifying cards in the game Set and detecting valid sets on a game board. Conducted dataset preparation, model training, and performance evaluation using PyTorch and OpenCV.",
-    proof:
-      "Detects valid Set combinations from board images using a trained CNN model.",
-    stack: [
-      "Python",
-      "PyTorch",
-      "OpenCV",
-      "NumPy",
-      "Computer Vision",
-      "Machine Learning",
-    ],
-    github: "https://github.com/angelodeasis/setscv",
-  },
+  title: "Waypoint",
+
+  description:
+    "Designed and developed a mobile application that helps users save temporary physical locations and find their way back to them later. Built with Flutter and Dart, featuring real-time GPS tracking, compass-based directional guidance, multiple waypoints, and local data persistence.",
+
+  proof:
+    "A fully functional iOS application tested on a physical iPhone, with automated unit and widget tests covering location handling, waypoint storage, geographic calculations, navigation, and UI behavior.",
+
+  stack: [
+    "Dart",
+    "Flutter",
+    "iOS Development",
+    "Geolocation",
+    "GPS",
+    "Compass",
+    "Local Storage",
+    "Unit Testing",
+    "Xcode",
+  ],
+
+  video: "https://www.youtube.com/embed/smC2QPQuGBc",
+},
   {
     title: "SoftView: Local Sensory Media Analysis ",
     description:
@@ -31,6 +38,22 @@ export const PROJECTS = [
 "Accessibility",
 ],
     live: "https://soft-view-seven.vercel.app/",
+  },
+  {
+    title: "Set Card Recognition with CNN (VGG6)",
+    description:
+      "Developed and trained a VGG6-based computer vision model capable of identifying cards in the game Set and detecting valid sets on a game board. Conducted dataset preparation, model training, and performance evaluation using PyTorch and OpenCV.",
+    proof:
+      "Detects valid Set combinations from board images using a trained CNN model.",
+    stack: [
+      "Python",
+      "PyTorch",
+      "OpenCV",
+      "NumPy",
+      "Computer Vision",
+      "Machine Learning",
+    ],
+    github: "https://github.com/angelodeasis/setscv",
   },
   {
   title: "Game of the Aeons: War of the Trailblazers",
