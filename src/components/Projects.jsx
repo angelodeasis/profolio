@@ -71,6 +71,36 @@ function ProjectCard({ project }) {
         {project.description}
       </p>
 
+      {project.video && (
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            paddingTop: "56.25%",
+            marginBottom: 20,
+            borderRadius: 12,
+            overflow: "hidden",
+            border: "1px solid #132040",
+          }}
+        >
+          <iframe
+            src={project.video}
+            title={`${project.title} demo video`}
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
+          />
+        </div>
+      )}
+
       <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
         {project.stack.map((tech) => (
           <span key={tech} className="stack-tag">
