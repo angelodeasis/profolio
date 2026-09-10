@@ -56,6 +56,29 @@ export const PROJECTS = [
     github: "https://github.com/angelodeasis/setscv",
   },
   {
+  title: "BountyHunter: A Citation Chrome Extension",
+
+  description:
+    "Designed and developed a Chrome extension that helps users find and locate citations and passages directly within webpages. Users enter a citation or search target, and BountyHunter searches the current page and highlights relevant matches, keeping results grounded in the source rather than relying on outside information.",
+
+  proof:
+    "A fully functional Chrome extension tested on real webpages, with a working demonstration of citation detection, source-grounded search, and in-page result highlighting.",
+
+  stack: [
+    "JavaScript",
+    "React",
+    "Chrome Extensions",
+    "Chrome Extension APIs",
+    "Gemini API",
+    "Node.js",
+    "Express",
+    "Web Scraping",
+    "Semantic Search",
+  ],
+
+  video: "https://www.youtube.com/embed/7jHmljPhf3E",
+},
+  {
   title: "Game of the Aeons: War of the Trailblazers",
 
   description:
