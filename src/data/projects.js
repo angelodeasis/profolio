@@ -25,6 +25,7 @@ export const PROJECTS = [
 
   github: "https://github.com/angelodeasis/ArmoryApply",
   live: "https://d1iqw1qv83zyx7.cloudfront.net/demo",
+  image: "/thumbnails/armoryapply.jpg",
 },
   {
   title: "Waypoint",
@@ -65,6 +66,7 @@ export const PROJECTS = [
 "Accessibility",
 ],
     live: "https://soft-view-seven.vercel.app/",
+  image: "/thumbnails/softview.jpg",
   },
   {
     title: "Set Card Recognition with CNN (VGG6)",
@@ -124,6 +126,7 @@ export const PROJECTS = [
   ],
 
   live: "https://auction-hsr-game.vercel.app/",
+  image: "/thumbnails/aeons.jpg",
  },
   {
     title: "AI PDF-to-Flashcard Generator",

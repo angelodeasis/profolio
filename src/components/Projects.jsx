@@ -71,6 +71,21 @@ function ProjectCard({ project }) {
         {project.description}
       </p>
 
+      {project.image && !project.video && (
+        <a
+          href={project.live || project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-thumb"
+        >
+          <img
+            src={project.image}
+            alt={`${project.title} screenshot`}
+            loading="lazy"
+          />
+        </a>
+      )}
+
       {project.video && (
         <div
           style={{
