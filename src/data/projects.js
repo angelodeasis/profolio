@@ -1,5 +1,32 @@
 export const PROJECTS = [
   {
+  title: "ArmoryApply: Serverless Job Application Tracker",
+
+  description:
+    "Designed and built a production-style job application tracker on AWS serverless infrastructure. Features invite-only accounts with MFA, a JWT-protected API with per-user data isolation, direct-to-S3 resume and cover letter uploads, and an import-from-link feature that auto-fills applications from Greenhouse, Lever, and careers pages. Fully defined as infrastructure as code with AWS CDK.",
+
+  proof:
+    "A deployed application with a public demo, hardened with SSRF protections, presigned upload policies, least-privilege IAM, API throttling, and CloudWatch alarms.",
+
+  stack: [
+    "TypeScript",
+    "React",
+    "Tailwind",
+    "TanStack Query",
+    "AWS CDK",
+    "Lambda",
+    "API Gateway",
+    "DynamoDB",
+    "S3",
+    "CloudFront",
+    "Cognito",
+    "CloudWatch",
+  ],
+
+  github: "https://github.com/angelodeasis/ArmoryApply",
+  live: "https://d1iqw1qv83zyx7.cloudfront.net/demo",
+},
+  {
   title: "Waypoint",
 
   description:
