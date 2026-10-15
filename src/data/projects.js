@@ -50,6 +50,28 @@ export const PROJECTS = [
 
   video: "https://www.youtube.com/embed/smC2QPQuGBc",
 },
+{
+  title: "Video-To-Bug CLI Tool",
+
+  description:
+    "A local-first command-line prototype that analyzes screen recordings of software testing sessions and generates timestamped observations and draft bug reports.",
+
+  proof:
+    "A CLI that is able to analyze videos and reproduce bugs, tested on OLlama Models and QWEN.",
+
+  stack: [
+    "Python", 
+    "CLI",
+    "Pillow",
+    "QWEN-Vision Model",
+    "FFmpeg",
+    "FFprobe",
+    "Manual Testing",
+    "Git"
+  ],
+
+  github: "https://github.com/angelodeasis/video-to-bug",
+},
   {
     title: "SoftView: Local Sensory Media Analysis ",
     description:
